@@ -125,8 +125,8 @@ Read what [people have said about chezmoi](docs/MEDIA.md).
 * [Changes](/docs/changes/) for non-backwards compatible changes.
 * [Reference](/docs/reference/) for a complete description of chezmoi.
 * [Comparison guide](/docs/comparison/) for a comparison with other dotfile managers.
-* [Contributing](/docs/contributing/) for people looking to contribute to or
-  package chezmoi.
+* [Contributing](/docs/contributing/) and [Architecture](/docs/architecture/)
+  for people looking to contribute to or package chezmoi.
 
 ## License
 
