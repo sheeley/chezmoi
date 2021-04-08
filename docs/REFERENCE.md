@@ -382,7 +382,8 @@ Different target types allow different prefixes and suffixes:
 | Regular file  | `encrypted_`, `private_`, `executable_`, `dot_`                       | `.tmpl`          |
 | Create file   | `create_`, `encrypted_`, `private_`, `executable_`, `dot_`            | `.tmpl`          |
 | Modify file   | `modify_`, `encrypted_`, `private_`, `executable_`, `dot_`            | `.tmpl`          |
-| Script        | `run_`, `once_`, `before_` or `after_`                                | `.tmpl`          |
+| Script        | `run_` (required),                                                    | `.tmpl`          |
+|               | `once_`, `before_` or `after_` (optional, mutually exclusive)         |                  |
 | Symbolic link | `symlink_`, `dot_`,                                                   | `.tmpl`          |
 
 In addition, if the source file is encrypted, the suffix `.age` (when age
